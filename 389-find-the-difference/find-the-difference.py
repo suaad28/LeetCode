@@ -7,6 +7,9 @@ class Solution(object):
         """
         cs = {}
         ct = {}
+
+        ''' for each char in the string, update the dictionary with that char and update its count. 
+        if it is a new occurrence, it'll default to 0'''
         
         for char in s:
             cs[char] = cs.get(char, 0) + 1  
