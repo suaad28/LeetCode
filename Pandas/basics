@@ -1,1 +1,7 @@
+import pandas as pd
 
+def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
+    df = pd.DataFrame(student_data, columns = ["student_id","age"])
+    rows = df.shape[0]
+    columns = df.shape[1]
+    return [df, rows, columns]
