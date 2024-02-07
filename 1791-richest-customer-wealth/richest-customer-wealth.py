@@ -15,5 +15,3 @@ class Solution(object):
             wealth = 0
 
         return max_wealth
-
-        return wealth
